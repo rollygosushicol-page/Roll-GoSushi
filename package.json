@@ -1,0 +1,13 @@
+{
+  "name": "roll-go-sushi-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Roll & Go Sushi: menú, fichas de producto y pedidos por WhatsApp.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
