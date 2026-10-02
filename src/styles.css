@@ -1,4 +1,8 @@
 /* Layout: carta nocturna de sushi — fondo carbón cálido como la pizarra de las fotos, la comida a sangre y el naranja solo para la acción. */
+/* Fuentes de marca (archivos en public/fonts/) */
+@font-face{font-family:"Oriental Chicken";src:url("fonts/oriental-chicken.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Montserrat";src:url("fonts/montserrat.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+
 :root{
   --ink:#0f0c0a;        /* fondo: carbón cálido */
   --coal:#171210;       /* superficies */
@@ -13,6 +17,8 @@
   --f-display:"Big Shoulders Display","Arial Narrow","Roboto Condensed",Impact,sans-serif;
   --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --f-brush:"Kaushan Script","Brush Script MT",cursive;
+  --f-logo:"Oriental Chicken","Kaushan Script",cursive;            /* "Roll & Go" */
+  --f-logo-sub:"Montserrat",system-ui,sans-serif;                   /* "SUSHI" */
   --gut:clamp(16px,4vw,40px);
   --max:1200px;
   --head-h:64px;
@@ -64,8 +70,8 @@ h2 em{font-style:normal;color:var(--orange)}
 .top-in{max-width:var(--max);margin-inline:auto;padding-inline:var(--gut);height:var(--head-h);display:flex;align-items:center;gap:20px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
 .brand img{width:40px;height:40px}
-.brand-word{font:900 22px/.9 var(--f-display);text-transform:uppercase;letter-spacing:.02em;display:flex;flex-direction:column}
-.brand-word small{font:600 9px/1 var(--f-body);letter-spacing:.42em;color:var(--mute);margin-top:4px}
+.brand-word{font:400 24px/1 var(--f-logo);letter-spacing:.01em;display:flex;flex-direction:column;align-items:center}
+.brand-word small{font:500 9px/1 var(--f-logo-sub);text-transform:uppercase;letter-spacing:.45em;margin-right:-.45em;color:var(--mute);margin-top:3px}
 .nav{display:none;gap:4px}
 .nav a{padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;color:var(--mute);transition:color .15s,background-color .15s}
 .nav a:hover{color:var(--rice);background:var(--char)}
