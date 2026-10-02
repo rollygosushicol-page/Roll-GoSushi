@@ -1,0 +1,208 @@
+<a class="skip" href="#menu">Saltar al menú</a>
+
+<header class="top" id="top">
+  <div class="top-in">
+    <a class="brand" href="#inicio" aria-label="Roll & Go Sushi, inicio">
+      <img src="img/marca/logo-mark.webp" alt="" width="40" height="40">
+      <span class="brand-word">Roll &amp; Go<small>Sushi</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#menu">Menú</a>
+      <a href="#combos">Combos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-wa btn-sm top-cta" href="{{WA_GENERAL}}" target="_blank" rel="noopener">{{ICON_WA}}<span>Pedir por WhatsApp</span></a>
+    <a class="top-wa" href="{{WA_GENERAL}}" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">{{ICON_WA}}</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Menú móvil" hidden>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#combos">Combos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+    <a class="btn btn-wa" href="{{WA_GENERAL}}" target="_blank" rel="noopener">{{ICON_WA}}<span>Pedir por WhatsApp</span></a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-media" aria-hidden="true">
+      <img src="img/hero/hero-fondo.webp" alt="" width="1400" height="536" fetchpriority="high">
+    </div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <h1><span class="kicker">Sushi a domicilio en Bogotá</span><span class="h1-a">Elige tu</span> <span class="h1-b">próximo antojo.</span></h1>
+        <p class="lead">Sabores de mar, texturas crocantes y momentos para compartir.</p>
+        <div class="hero-ctas">
+          {{BTN_WA_HERO}}
+          <a class="btn btn-ghost btn-lg" href="#menu"><span>Ver menú</span>{{ICON_ARROW}}</a>
+        </div>
+      </div>
+      <figure class="hero-plate">
+        <img src="img/hero/hero-combo.webp" alt="{{HERO_ALT}}" width="760" height="670">
+        <figcaption><span class="brush">{{HERO_FRASE}}</span><span>{{HERO_NOMBRE}} · <b>{{HERO_PRECIO}}</b></span></figcaption>
+      </figure>
+    </div>
+    <ul class="facts wrap" aria-label="Lo esencial">
+      <li><b>Qué pides</b><span>Sushi, pokes, entradas, postres y combos</span></li>
+      <li><b>Cómo pides</b><span>Por WhatsApp, con nuestro catálogo</span></li>
+      <li><b>Domicilio</b><span>{{DOMICILIO}} · zonas seleccionadas de Bogotá</span></li>
+      <li><b>Horario</b><span>{{DIAS}} · {{HORARIO}}</span></li>
+    </ul>
+  </section>
+
+  <!-- SELECCIÓN -->
+  <section class="sel" aria-labelledby="h-sel">
+    <div class="wrap sec-head">
+      <div><p class="eyebrow">Para abrir el apetito</p><h2 id="h-sel">Una selección para empezar.</h2></div>
+      <a class="link" href="#menu">Ver todo el menú {{ICON_ARROW}}</a>
+    </div>
+    <div class="rail wrap-rail">{{FEATURED}}</div>
+  </section>
+
+  <!-- MENÚ -->
+  <section class="menu" id="menu" aria-labelledby="h-menu">
+    <div class="wrap">
+      <div class="sec-head stack">
+        <p class="eyebrow">Menú Roll &amp; Go</p>
+        <h2 id="h-menu">¿Qué se te antoja hoy?</h2>
+        <p class="sec-sub">Explora nuestros sabores y encuentra tu próximo favorito.</p>
+      </div>
+    </div>
+    <div class="cats wrap-rail">{{CAT_NAV}}</div>
+
+    <nav class="chips" aria-label="Categorías del menú"><div class="chips-in">{{CHIPS}}</div></nav>
+
+    <div class="wrap">
+      {{BLOCKS}}
+      <div class="menu-cta">
+        <p>¿Ya sabes qué quieres? Arma tu carrito en nuestro catálogo de WhatsApp.</p>
+        {{BTN_WA}}
+      </div>
+    </div>
+  </section>
+
+  <!-- COMBOS -->
+  <section class="combos" id="combos" aria-labelledby="h-combos">
+    <div class="wrap">
+      <div class="sec-head stack">
+        <p class="eyebrow">05 · Combos</p>
+        <h2 id="h-combos">Si es para compartir, <em>que sea Roll &amp; Go.</em></h2>
+        <p class="sec-sub">{{COMBO_DESC}}</p>
+      </div>
+      <div class="combo-grid">{{COMBOS}}</div>
+      <div class="combos-cta">{{BTN_WA_COMBO}}</div>
+    </div>
+  </section>
+
+  <!-- CÓMO PEDIR -->
+  <section class="how" id="como-pedir" aria-labelledby="h-how">
+    <div class="wrap">
+      <div class="sec-head stack">
+        <p class="eyebrow">Cómo pedir</p>
+        <h2 id="h-how">Tu pedido está a unos clics.</h2>
+      </div>
+      <ol class="steps">{{STEPS}}</ol>
+      <div class="how-cta">{{BTN_WA}}<span class="note">Domicilio {{DOMICILIO}} · {{DIAS}} · {{HORARIO}}</span></div>
+    </div>
+  </section>
+
+  <!-- MARCA -->
+  <section class="brandsec" id="nosotros" aria-labelledby="h-brand">
+    <div class="wrap brand-in">
+      <div class="brand-art" aria-hidden="true">
+        <img class="b1" src="img/marca/nosotros-1.webp" alt="" loading="lazy">
+        <img class="b2" src="img/marca/nosotros-2.webp" alt="" loading="lazy">
+        <img class="b3" src="img/marca/logo.webp" alt="" loading="lazy">
+      </div>
+      <div class="brand-copy">
+        <p class="eyebrow">Roll &amp; Go Sushi</p>
+        <h2 id="h-brand">Tu próximo antojo está a un mensaje de distancia.</h2>
+        <p>Roll &amp; Go Sushi combina sabores de mar, ingredientes, texturas crocantes y combinaciones pensadas para disfrutar donde quieras.</p>
+        <p class="brush big">Pide fácil. Disfruta más.</p>
+        {{BTN_WA_ROLL}}
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="ig" aria-labelledby="h-ig">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">@roll_go_sushi</p><h2 id="h-ig">Más Roll &amp; Go.</h2></div>
+        <a class="btn btn-ghost" href="{{IG}}" target="_blank" rel="noopener">{{ICON_IG}}<span>Síguenos en Instagram</span></a>
+      </div>
+      <div class="ig-grid">{{IG_TILES}}</div>
+    </div>
+  </section>
+
+  <!-- CONTACTO / CIERRE -->
+  <section class="final" id="contacto" aria-labelledby="h-final">
+    <div class="wrap final-in">
+      <h2 id="h-final">¿Listo para pedir?</h2>
+      <p class="lead">Escríbenos por WhatsApp y arma tu pedido desde nuestro catálogo.</p>
+      {{BTN_WA_HERO}}
+      <dl class="info">
+        <div><dt>WhatsApp</dt><dd><span class="sel-text">{{WA_HUMAN}}</span> <button class="copy" type="button" data-copy="{{WA_HUMAN}}">Copiar</button></dd></div>
+        <div><dt>Horario</dt><dd>{{DIAS}}<br>{{HORARIO}}</dd></div>
+        <div><dt>Domicilio</dt><dd><b class="price">{{DOMICILIO}}</b><br>{{ZONA}}</dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand">
+      <img src="img/marca/logo.webp" alt="Roll & Go Sushi" width="120" height="146" loading="lazy">
+      <div><p class="foot-name">Roll &amp; Go Sushi</p><p class="brush">Pide fácil. Disfruta más.</p></div>
+    </div>
+    <ul class="foot-list">
+      <li><span>WhatsApp</span><a href="{{WA_GENERAL}}" target="_blank" rel="noopener">{{WA_HUMAN}}</a></li>
+      <li><span>Instagram</span><a href="{{IG}}" target="_blank" rel="noopener">@roll_go_sushi</a></li>
+      <li><span>Horario</span>{{DIAS}} · {{HORARIO}}</li>
+      <li><span>Domicilio</span>{{DOMICILIO}} · {{ZONA}}</li>
+    </ul>
+    <nav class="foot-nav" aria-label="Pie de página">
+      <a href="#cat-rollos">Rollos</a><a href="#cat-pokes">Pokes</a><a href="#cat-entradas">Entradas</a><a href="#cat-postres">Postres</a><a href="#combos">Combos</a>
+    </nav>
+  </div>
+  <p class="wrap foot-legal">© Roll &amp; Go Sushi · Precios en pesos colombianos (COP).</p>
+</footer>
+
+<a class="fab" href="{{WA_GENERAL}}" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">{{ICON_WA}}<span>Pedir por WhatsApp</span></a>
+
+<dialog class="pd" id="pd" aria-labelledby="pd-name">
+  <div class="pd-in">
+    <button class="pd-x" type="button" id="pd-x" aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="pd-media"><img id="pd-img" src="" alt="" width="960" height="960"></div>
+    <div class="pd-info">
+      <p class="pd-cat" id="pd-cat"></p>
+      <h2 class="pd-name" id="pd-name"></h2>
+      <p class="pd-price price" id="pd-price"></p>
+      <p class="pd-desc" id="pd-desc"></p>
+      <div class="pd-block">
+        <h3 id="pd-ing-h">Ingredientes</h3>
+        <ul class="pd-ing" id="pd-ing"></ul>
+      </div>
+      <p class="pd-tag brush" id="pd-tag"></p>
+      <div class="pd-actions">
+        <a class="btn btn-wa btn-lg pd-cta" id="pd-cta" href="{{WA_GENERAL}}" target="_blank" rel="noopener">{{ICON_WA}}<span>Pedir por WhatsApp</span></a>
+        <p class="pd-note">Se abre WhatsApp con tu mensaje listo. Allá puedes ver nuestro catálogo, sumar más productos al carrito y enviarnos el pedido.</p>
+        <p class="pd-meta">Domicilio {{DOMICILIO}} · {{DIAS}} {{HORARIO}}</p>
+      </div>
+      <div class="pd-nav">
+        <button type="button" id="pd-prev">← Anterior</button>
+        <button type="button" id="pd-next">Siguiente →</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script id="pdata" type="application/json" data-wa="{{WA_BASE}}">{{PDATA}}</script>
