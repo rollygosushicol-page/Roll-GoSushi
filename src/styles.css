@@ -272,7 +272,8 @@ section{position:relative}
 @media (min-width:900px){.foot-in{grid-template-columns:1.1fr 1.4fr .8fr}}
 .foot-brand{display:flex;gap:16px;align-items:center}
 .foot-brand img{width:84px;height:auto}
-.foot-name{font:900 30px/1 var(--f-display);text-transform:uppercase}
+.foot-name{font:400 32px/1 var(--f-logo);letter-spacing:.01em;display:inline-flex;flex-direction:column;align-items:center;margin-bottom:6px}
+.foot-name small{font:500 11px/1 var(--f-logo-sub);text-transform:uppercase;letter-spacing:.45em;margin-right:-.45em;color:var(--mute);margin-top:4px}
 .foot-list{list-style:none;margin:0;padding:0;display:grid;gap:12px;font-size:15px}
 .foot-list li{display:grid;gap:2px}
 .foot-list span{font:700 11px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
