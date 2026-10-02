@@ -1,0 +1,561 @@
+[
+  {
+    "slug": "philadelphia",
+    "categoria": "rollos",
+    "nombre": "Philadelphia",
+    "precio": 30000,
+    "articulo": "el",
+    "descripcion": "Salmón fresco y aguacate cremoso, unidos por la suavidad del queso crema y el delicado toque del ajonjolí.",
+    "frase": "Tu clásico favorito, bocado a bocado.",
+    "ingredientes": [
+      "Salmón",
+      "Queso crema",
+      "Aguacate",
+      "Ajonjolí"
+    ]
+  },
+  {
+    "slug": "california",
+    "categoria": "rollos",
+    "nombre": "California",
+    "precio": 29500,
+    "articulo": "el",
+    "descripcion": "Kanikama, aguacate y pepino crujiente, con el toque delicado del masago.",
+    "frase": "Un bocado ligero para seguir disfrutando.",
+    "ingredientes": [
+      "Kanikama",
+      "Masago",
+      "Aguacate",
+      "Pepino"
+    ]
+  },
+  {
+    "slug": "ojo-de-tigre",
+    "categoria": "rollos",
+    "nombre": "Ojo de Tigre",
+    "precio": 31500,
+    "articulo": "el",
+    "descripcion": "Salmón, bassa y atún en una combinación de mar, realzada por el ajonjolí.",
+    "frase": "Tres sabores del mar. Un solo antojo.",
+    "ingredientes": [
+      "Salmón",
+      "Bassa",
+      "Atún",
+      "Ajonjolí"
+    ]
+  },
+  {
+    "slug": "special-roll",
+    "categoria": "rollos",
+    "nombre": "Special Roll",
+    "precio": 39500,
+    "articulo": "el",
+    "descripcion": "Langostino, salmón y kanikama se encuentran con aguacate, queso crema, masago y salsa dinamita.",
+    "frase": "Para cuando quieres algo especial.",
+    "ingredientes": [
+      "Langostino",
+      "Queso crema",
+      "Aguacate",
+      "Salmón",
+      "Masago",
+      "Dinamita",
+      "Kanikama"
+    ]
+  },
+  {
+    "slug": "tokio",
+    "categoria": "rollos",
+    "nombre": "Tokio",
+    "precio": 35000,
+    "articulo": "el",
+    "descripcion": "Langostino, aguacate y vegetales, con la suavidad del queso crema y el carácter de la salsa dinamita.",
+    "frase": "Haz de tu pausa un viaje de sabor.",
+    "ingredientes": [
+      "Langostino",
+      "Queso crema",
+      "Aguacate",
+      "Vegetales",
+      "Dinamita"
+    ]
+  },
+  {
+    "slug": "platanito-roll",
+    "categoria": "rollos",
+    "nombre": "Platanito Roll",
+    "precio": 32000,
+    "articulo": "el",
+    "descripcion": "Langostino y dos quesos suaves, abrazados por el dulzor del plátano dorado.",
+    "frase": "Ese toque dulce que te hace volver.",
+    "ingredientes": [
+      "Langostino",
+      "Queso crema",
+      "Mozzarella",
+      "Plátano"
+    ]
+  },
+  {
+    "slug": "skin-roll",
+    "categoria": "rollos",
+    "nombre": "Skin Roll",
+    "precio": 30900,
+    "articulo": "el",
+    "descripcion": "Piel crocante, aguacate y queso crema: un contraste entre crujiente y cremoso.",
+    "frase": "Déjate conquistar por el primer crunch.",
+    "ingredientes": [
+      "Piel crocante",
+      "Queso crema",
+      "Aguacate"
+    ]
+  },
+  {
+    "slug": "tuna",
+    "categoria": "rollos",
+    "nombre": "Tuna",
+    "precio": 29900,
+    "articulo": "el",
+    "descripcion": "Atún de sabor delicado, aguacate y queso crema en un rollo suave y equilibrado.",
+    "frase": "Tu momento de mar, sin prisa.",
+    "ingredientes": [
+      "Atún",
+      "Queso crema",
+      "Aguacate"
+    ]
+  },
+  {
+    "slug": "salmon-tempura",
+    "categoria": "rollos",
+    "nombre": "Salmón Tempura",
+    "precio": 30000,
+    "articulo": "el",
+    "descripcion": "Salmón, aguacate y queso crema bajo una cubierta de tempura dorada.",
+    "frase": "Cruje por fuera. Conquista por dentro.",
+    "ingredientes": [
+      "Salmón",
+      "Queso crema",
+      "Aguacate",
+      "Tempura"
+    ]
+  },
+  {
+    "slug": "hiroshima",
+    "categoria": "rollos",
+    "nombre": "Hiroshima",
+    "precio": 33500,
+    "articulo": "el",
+    "descripcion": "Salmón y kanikama tempura, unidos por queso crema y un delicado toque de ajonjolí.",
+    "frase": "El contraste que despierta tu antojo.",
+    "ingredientes": [
+      "Salmón",
+      "Kanikama tempura",
+      "Queso crema",
+      "Ajonjolí"
+    ]
+  },
+  {
+    "slug": "nakata",
+    "categoria": "rollos",
+    "nombre": "Nakata",
+    "precio": 29000,
+    "articulo": "el",
+    "descripcion": "Kanikama, aguacate y queso crema con una cubierta crocante que realza cada bocado.",
+    "frase": "Tu lado crocante tiene un favorito.",
+    "ingredientes": [
+      "Kanikama",
+      "Queso crema",
+      "Aguacate",
+      "Tempura"
+    ]
+  },
+  {
+    "slug": "rainbowl",
+    "categoria": "rollos",
+    "nombre": "Rainbowl",
+    "precio": 39500,
+    "articulo": "el",
+    "descripcion": "Langostino y queso crema, cubiertos con salmón, atún y aguacate en una mezcla de colores y texturas.",
+    "frase": "Ponle color a tu próximo antojo.",
+    "ingredientes": [
+      "Langostino",
+      "Queso crema",
+      "Salmón",
+      "Atún",
+      "Aguacate"
+    ]
+  },
+  {
+    "slug": "crunch-de-la-casa",
+    "categoria": "rollos",
+    "nombre": "Crunch de la Casa",
+    "precio": 35000,
+    "articulo": "el",
+    "descripcion": "Kanikama tempura y queso crema, terminados con dinamita y masago para un bocado con carácter.",
+    "frase": "El crunch que se queda contigo.",
+    "ingredientes": [
+      "Kanikama tempura",
+      "Queso crema",
+      "Dinamita",
+      "Masago"
+    ]
+  },
+  {
+    "slug": "tropical-roll",
+    "categoria": "rollos",
+    "nombre": "Tropical Roll",
+    "precio": 32900,
+    "articulo": "el",
+    "descripcion": "Langostino, lechuga y aguacate con el toque de chile dulce que equilibra el conjunto.",
+    "frase": "Una escapada tropical en cada bocado.",
+    "ingredientes": [
+      "Langostino",
+      "Lechuga",
+      "Aguacate",
+      "Chile dulce"
+    ]
+  },
+  {
+    "slug": "oishii-roll",
+    "categoria": "rollos",
+    "nombre": "Oishii Roll",
+    "precio": 34500,
+    "articulo": "el",
+    "descripcion": "Salmón tempura, kanikama y queso crema, con ajonjolí y el toque dulce del chile.",
+    "frase": "Descubre por qué uno nunca basta.",
+    "ingredientes": [
+      "Salmón tempura",
+      "Queso crema",
+      "Kanikama",
+      "Chile dulce",
+      "Ajonjolí"
+    ]
+  },
+  {
+    "slug": "recomendado-del-chef",
+    "categoria": "rollos",
+    "nombre": "Recomendado del Chef",
+    "precio": 28500,
+    "articulo": "el",
+    "descripcion": "Bassa y queso crema en una tempura dorada que combina suavidad y textura crocante.",
+    "frase": "Déjate sorprender por el chef.",
+    "ingredientes": [
+      "Bassa",
+      "Queso crema",
+      "Tempura"
+    ]
+  },
+  {
+    "slug": "poke-1",
+    "categoria": "pokes",
+    "nombre": "Poke 1",
+    "precio": 35000,
+    "articulo": "el",
+    "descripcion": "Salmón sellado, aguacate y edamames se encuentran con el dulzor de los frutos amarillos y el contraste de la piel crocante.",
+    "frase": "Dale color y sabor a tu día.",
+    "ingredientes": [
+      "Salmón sellado",
+      "Aguacate",
+      "Edamames",
+      "Frutos amarillos",
+      "Piel crocante"
+    ]
+  },
+  {
+    "slug": "poke-2",
+    "categoria": "pokes",
+    "nombre": "Poke 2",
+    "precio": 32000,
+    "articulo": "el",
+    "descripcion": "Atún fresco, aguacate y edamames con ajonjolí y vegetales tempura que aportan el contraste crocante.",
+    "frase": "Un bowl que acompaña tu ritmo.",
+    "ingredientes": [
+      "Atún fresco",
+      "Aguacate",
+      "Edamames",
+      "Ajonjolí",
+      "Vegetales tempura"
+    ]
+  },
+  {
+    "slug": "poke-3",
+    "categoria": "pokes",
+    "nombre": "Poke 3",
+    "precio": 35000,
+    "articulo": "el",
+    "descripcion": "Langostinos al ajillo y aguacate, con piel crocante y vegetales tempura para disfrutar distintas texturas.",
+    "frase": "Haz de hoy una ocasión deliciosa.",
+    "ingredientes": [
+      "Langostinos al ajillo",
+      "Aguacate",
+      "Piel crocante",
+      "Vegetales tempura"
+    ]
+  },
+  {
+    "slug": "dedos-crocantes",
+    "categoria": "entradas",
+    "nombre": "Dedos crocantes",
+    "precio": 18000,
+    "articulo": "los",
+    "descripcion": "Kanikama y cebollín entre queso crema y mozzarella, envueltos en una capa dorada que cruje al primer mordisco.",
+    "frase": "Empieza con un antojo que conquista.",
+    "ingredientes": [
+      "Kanikama",
+      "Cebollín",
+      "Queso crema",
+      "Mozzarella"
+    ]
+  },
+  {
+    "slug": "gyozas-de-pollo",
+    "categoria": "entradas",
+    "nombre": "Gyozas de pollo",
+    "precio": 14900,
+    "articulo": "las",
+    "descripcion": "Pollo, zanahoria y repollo dentro de una masa delicada, con ponzu para realzar el sabor.",
+    "frase": "Un comienzo pequeño. Un gran antojo.",
+    "ingredientes": [
+      "Pollo",
+      "Zanahoria",
+      "Repollo",
+      "Ponzu"
+    ]
+  },
+  {
+    "slug": "gyozas-de-carne",
+    "categoria": "entradas",
+    "nombre": "Gyozas de carne",
+    "precio": 16900,
+    "articulo": "las",
+    "descripcion": "Carne, cebolla y apio en gyozas doradas, acompañadas de ponzu para un toque de contraste.",
+    "frase": "Pide una más y sigue compartiendo.",
+    "ingredientes": [
+      "Carne",
+      "Cebolla",
+      "Apio",
+      "Ponzu"
+    ]
+  },
+  {
+    "slug": "spring-rolls",
+    "categoria": "entradas",
+    "nombre": "Spring rolls",
+    "precio": 13900,
+    "articulo": "los",
+    "descripcion": "Pollo y vegetales envueltos en una capa crocante, con salsa de chile dulce para acompañar.",
+    "frase": "El comienzo que abre el apetito.",
+    "ingredientes": [
+      "Pollo",
+      "Vegetales",
+      "Chile dulce"
+    ]
+  },
+  {
+    "slug": "langostinos-crispy",
+    "categoria": "entradas",
+    "nombre": "Langostinos Crispy",
+    "precio": 20500,
+    "articulo": "los",
+    "descripcion": "Cuatro langostinos dorados y crocantes, acompañados de salsa dinamita.",
+    "frase": "Cuatro razones para darte un gusto.",
+    "ingredientes": [
+      "4 langostinos",
+      "Dinamita"
+    ]
+  },
+  {
+    "slug": "bananos-tempura",
+    "categoria": "postres",
+    "nombre": "Bananos tempura",
+    "precio": 12000,
+    "articulo": "los",
+    "descripcion": "Banano dulce y suave por dentro, tempura dorada por fuera y un baño de chocolate para disfrutar cada contraste.",
+    "frase": "Date ese final dulce que mereces.",
+    "ingredientes": [
+      "Bananos",
+      "Chocolate"
+    ]
+  },
+  {
+    "slug": "oreo-crocante",
+    "categoria": "postres",
+    "nombre": "Oreo crocante",
+    "precio": 12000,
+    "articulo": "el",
+    "descripcion": "Oreo bajo una cubierta crocante, con chocolate para un final lleno de dulzor.",
+    "frase": "Tu galleta favorita, con otro encanto.",
+    "ingredientes": [
+      "Oreo",
+      "Chocolate"
+    ]
+  },
+  {
+    "slug": "wontons",
+    "categoria": "postres",
+    "nombre": "Wontons",
+    "precio": 12000,
+    "articulo": "los",
+    "descripcion": "Wontons dorados con arequipe y queso crema, terminados con chocolate.",
+    "frase": "Guarda espacio para este último antojo.",
+    "ingredientes": [
+      "Arequipe",
+      "Queso crema",
+      "Chocolate"
+    ]
+  },
+  {
+    "slug": "combo-1-x-20",
+    "categoria": "combos",
+    "nombre": "Combo 1 x 20",
+    "precio": 46000,
+    "articulo": "el",
+    "descripcion": "Cuatro rollos, veinte piezas y una mezcla de pescados, langostino, quesos suaves y plátano dorado para disfrutar distintos sabores.",
+    "frase": "Comparte el antojo. Encuentra tu favorito.",
+    "piezas": 20,
+    "incluye": [
+      {
+        "rollo": "Philadelphia",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Recomendado del Chef",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Ojo de Tigre",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Platanito",
+        "cantidad": 5
+      }
+    ]
+  },
+  {
+    "slug": "combo-2-x-30",
+    "categoria": "combos",
+    "nombre": "Combo 2 x 30",
+    "precio": 58500,
+    "articulo": "el",
+    "descripcion": "Treinta piezas que combinan plátano dorado, langostino, vegetales y kanikama en tres rollos distintos.",
+    "frase": "La mesa está lista para compartir.",
+    "piezas": 30,
+    "incluye": [
+      {
+        "rollo": "Platanito Roll",
+        "cantidad": 10
+      },
+      {
+        "rollo": "Tokio",
+        "cantidad": 10
+      },
+      {
+        "rollo": "California",
+        "cantidad": 10
+      }
+    ]
+  },
+  {
+    "slug": "combo-roll-go-x-50",
+    "categoria": "combos",
+    "nombre": "Combo Roll & Go x 50",
+    "precio": 89000,
+    "articulo": "el",
+    "descripcion": "Cincuenta piezas, diez variedades y una selección de sabores de mar, opciones crocantes y toques cremosos.",
+    "frase": "Reúne a los tuyos. El sabor lo ponemos nosotros.",
+    "piezas": 50,
+    "incluye": [
+      {
+        "rollo": "Nakata",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Philadelphia",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Ojo de Tigre",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Platanito Roll",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Recomendado del Chef",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Skin Roll",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Tuna",
+        "cantidad": 5
+      },
+      {
+        "rollo": "California",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Salmón Tempura",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Tokio",
+        "cantidad": 5
+      }
+    ]
+  },
+  {
+    "slug": "combo-tempura",
+    "categoria": "combos",
+    "nombre": "Combo Tempura",
+    "precio": 51000,
+    "articulo": "el",
+    "descripcion": "Veinte piezas con bassa, salmón y kanikama, entre cubiertas doradas, queso crema y ajonjolí.",
+    "frase": "Comparte el lado crocante del sushi.",
+    "piezas": 20,
+    "incluye": [
+      {
+        "rollo": "Recomendado del Chef",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Salmón Tempura",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Nakata",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Hiroshima",
+        "cantidad": 5
+      }
+    ]
+  },
+  {
+    "slug": "combo-soltero",
+    "categoria": "combos",
+    "nombre": "Combo Soltero",
+    "precio": 38500,
+    "articulo": "el",
+    "descripcion": "Quince piezas de California, Tokio y Salmón Tempura para alternar bocados ligeros, cremosos y crocantes.",
+    "frase": "Una buena compañía: tu sushi favorito.",
+    "piezas": 15,
+    "incluye": [
+      {
+        "rollo": "California",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Tokio",
+        "cantidad": 5
+      },
+      {
+        "rollo": "Salmón Tempura",
+        "cantidad": 5
+      }
+    ],
+    "etiqueta": "De temporada"
+  }
+]

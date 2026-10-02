@@ -1,0 +1,39 @@
+{
+  "_nota": "Datos generales del negocio. Si cambias algo aquí, corre 'npm run build'.",
+  "nombre": "Roll & Go Sushi",
+  "whatsapp": "573181676886",
+  "whatsapp_visible": "+57 318 167 6886",
+  "mensaje_general": "Hola Roll & Go Sushi 👋 Quiero hacer un pedido.",
+  "mensaje_combo": "Hola Roll & Go Sushi 👋 Quiero pedir un combo.",
+  "instagram": "https://www.instagram.com/roll_go_sushi/",
+  "instagram_usuario": "@roll_go_sushi",
+  "dias": "Todos los días",
+  "horario": "11:00 a.m. — 9:00 p.m.",
+  "hora_apertura": "11:00",
+  "hora_cierre": "21:00",
+  "domicilio": 10000,
+  "zona": "Servicio a domicilio en zonas seleccionadas de Bogotá.",
+  "dominio": "https://www.rollgosushi.com",
+  "hero": {
+    "producto": "combo-roll-go-x-50",
+    "frase": "Reúne a los tuyos."
+  },
+  "seleccion": [
+    "special-roll",
+    "rainbowl",
+    "poke-1",
+    "langostinos-crispy",
+    "oishii-roll",
+    "platanito-roll",
+    "gyozas-de-carne",
+    "oreo-crocante"
+  ],
+  "instagram_fotos": [
+    "rainbowl",
+    "poke-2",
+    "dedos-crocantes",
+    "crunch-de-la-casa",
+    "wontons",
+    "tropical-roll"
+  ]
+}

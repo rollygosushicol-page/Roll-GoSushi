@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rollos",
+    "numero": "01",
+    "nombre": "Rollos de Sushi",
+    "corto": "Rollos",
+    "descripcion": "Pescados de sabor delicado, aguacate cremoso y vegetales crujientes. Frescura y contraste, rollo a rollo.",
+    "imagen": "img/productos/miniaturas/philadelphia.webp"
+  },
+  {
+    "id": "pokes",
+    "numero": "02",
+    "nombre": "Pokes",
+    "corto": "Pokes",
+    "descripcion": "Proteínas de mar, verduras llenas de color y una mezcla de texturas que invita a disfrutar cada cucharada.",
+    "imagen": "img/productos/miniaturas/poke-1.webp"
+  },
+  {
+    "id": "entradas",
+    "numero": "03",
+    "nombre": "Entradas",
+    "corto": "Entradas",
+    "descripcion": "Vegetales y rellenos suaves bajo capas doradas. Pequeños bocados que abren el apetito y la conversación.",
+    "imagen": "img/productos/miniaturas/gyozas-de-carne.webp"
+  },
+  {
+    "id": "postres",
+    "numero": "04",
+    "nombre": "Postres",
+    "corto": "Postres",
+    "descripcion": "Banano, chocolate y rellenos cremosos: un encuentro de dulzor y textura para cerrar con una sonrisa.",
+    "imagen": "img/productos/miniaturas/bananos-tempura.webp"
+  },
+  {
+    "id": "combos",
+    "numero": "05",
+    "nombre": "Combos",
+    "corto": "Combos",
+    "descripcion": "Distintos rollos, sabores de mar y bocados crocantes reunidos en una misma bandeja. Elige tu ocasión para compartir.",
+    "imagen": "img/hero/hero-combo.webp"
+  }
+]
