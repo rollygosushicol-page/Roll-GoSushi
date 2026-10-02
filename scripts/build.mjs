@@ -10,6 +10,15 @@ const PUBLIC = path.join(ROOT, "public");
 const DIST = path.join(ROOT, "dist");
 const EXTS = ["webp", "jpg", "jpeg", "png", "avif"];
 
+// Verifica que estén los archivos necesarios antes de empezar
+const REQUIRED = ["src/index.html", "src/styles.css", "src/app.js", "src/data/negocio.json", "src/data/categorias.json", "src/data/productos.json", "public/img"];
+const missing = REQUIRED.filter((f) => !fs.existsSync(path.join(ROOT, f)));
+if (missing.length) {
+  console.error("\n✖ Faltan archivos en el repositorio:\n" + missing.map((f) => "  - " + f).join("\n") +
+    "\n\nSúbelos a GitHub en esa misma ruta (respeta mayúsculas y minúsculas) y vuelve a publicar.\n");
+  process.exit(1);
+}
+
 const read = (f) => fs.readFileSync(path.join(SRC, f), "utf8");
 const json = (f) => JSON.parse(read(f));
 const NEG = json("data/negocio.json");
@@ -195,6 +204,8 @@ const html = `<!doctype html>
 <meta name="theme-color" content="#0f0c0a">
 <link rel="canonical" href="${abs("")}">
 <link rel="icon" href="img/marca/logo-mark.png">
+<link rel="preload" href="fonts/oriental-chicken.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_CO">
